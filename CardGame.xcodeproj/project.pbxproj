@@ -13,14 +13,17 @@
 		B0AA27CF1A80CA2400C93AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0AA27CD1A80CA2400C93AFF /* InfoPlist.strings */; };
 		B0AA27D11A80CA2400C93AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA27D01A80CA2400C93AFF /* main.m */; };
 		B0AA27D51A80CA2400C93AFF /* MCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA27D41A80CA2400C93AFF /* MCWAppDelegate.m */; };
-		B0AA27D81A80CA2400C93AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AA27D61A80CA2400C93AFF /* Main.storyboard */; };
-		B0AA27DB1A80CA2400C93AFF /* MCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA27DA1A80CA2400C93AFF /* MCWViewController.m */; };
 		B0AA27DD1A80CA2400C93AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AA27DC1A80CA2400C93AFF /* Images.xcassets */; };
 		B0AA27E41A80CA2400C93AFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AA27E31A80CA2400C93AFF /* XCTest.framework */; };
 		B0AA27E51A80CA2400C93AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AA27C41A80CA2400C93AFF /* Foundation.framework */; };
 		B0AA27E61A80CA2400C93AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AA27C81A80CA2400C93AFF /* UIKit.framework */; };
 		B0AA27EE1A80CA2400C93AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0AA27EC1A80CA2400C93AFF /* InfoPlist.strings */; };
 		B0AA27F01A80CA2400C93AFF /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA27EF1A80CA2400C93AFF /* CardGameTests.m */; };
+		B0AA27FC1A80CC2F00C93AFF /* MCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA27FA1A80CC2F00C93AFF /* MCWViewController.m */; };
+		B0AA27FD1A80CC2F00C93AFF /* MCWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0AA27FB1A80CC2F00C93AFF /* MCWViewController.xib */; };
+		B0AA28011A80D5F600C93AFF /* MCWCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA28001A80D5F600C93AFF /* MCWCard.m */; };
+		B0AA28041A80D7CC00C93AFF /* MCWPoker.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA28031A80D7CC00C93AFF /* MCWPoker.m */; };
+		B0AA28071A80DDDB00C93AFF /* MCWGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA28061A80DDDB00C93AFF /* MCWGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +47,21 @@
 		B0AA27D21A80CA2400C93AFF /* CardGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardGame-Prefix.pch"; sourceTree = "<group>"; };
 		B0AA27D31A80CA2400C93AFF /* MCWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCWAppDelegate.h; sourceTree = "<group>"; };
 		B0AA27D41A80CA2400C93AFF /* MCWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCWAppDelegate.m; sourceTree = "<group>"; };
-		B0AA27D71A80CA2400C93AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0AA27D91A80CA2400C93AFF /* MCWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCWViewController.h; sourceTree = "<group>"; };
-		B0AA27DA1A80CA2400C93AFF /* MCWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCWViewController.m; sourceTree = "<group>"; };
 		B0AA27DC1A80CA2400C93AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0AA27E21A80CA2400C93AFF /* CardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AA27E31A80CA2400C93AFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B0AA27EB1A80CA2400C93AFF /* CardGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardGameTests-Info.plist"; sourceTree = "<group>"; };
 		B0AA27ED1A80CA2400C93AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0AA27EF1A80CA2400C93AFF /* CardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameTests.m; sourceTree = "<group>"; };
+		B0AA27F91A80CC2F00C93AFF /* MCWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWViewController.h; sourceTree = "<group>"; };
+		B0AA27FA1A80CC2F00C93AFF /* MCWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWViewController.m; sourceTree = "<group>"; };
+		B0AA27FB1A80CC2F00C93AFF /* MCWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCWViewController.xib; sourceTree = "<group>"; };
+		B0AA27FF1A80D5F600C93AFF /* MCWCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWCard.h; sourceTree = "<group>"; };
+		B0AA28001A80D5F600C93AFF /* MCWCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWCard.m; sourceTree = "<group>"; };
+		B0AA28021A80D7CC00C93AFF /* MCWPoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWPoker.h; sourceTree = "<group>"; };
+		B0AA28031A80D7CC00C93AFF /* MCWPoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWPoker.m; sourceTree = "<group>"; };
+		B0AA28051A80DDDB00C93AFF /* MCWGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWGame.h; sourceTree = "<group>"; };
+		B0AA28061A80DDDB00C93AFF /* MCWGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +123,10 @@
 			children = (
 				B0AA27D31A80CA2400C93AFF /* MCWAppDelegate.h */,
 				B0AA27D41A80CA2400C93AFF /* MCWAppDelegate.m */,
-				B0AA27D61A80CA2400C93AFF /* Main.storyboard */,
-				B0AA27D91A80CA2400C93AFF /* MCWViewController.h */,
-				B0AA27DA1A80CA2400C93AFF /* MCWViewController.m */,
+				B0AA27F91A80CC2F00C93AFF /* MCWViewController.h */,
+				B0AA27FA1A80CC2F00C93AFF /* MCWViewController.m */,
+				B0AA27FB1A80CC2F00C93AFF /* MCWViewController.xib */,
+				B0AA27FE1A80D5DA00C93AFF /* Model */,
 				B0AA27DC1A80CA2400C93AFF /* Images.xcassets */,
 				B0AA27CB1A80CA2400C93AFF /* Supporting Files */,
 			);
@@ -150,6 +160,19 @@
 				B0AA27EC1A80CA2400C93AFF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0AA27FE1A80D5DA00C93AFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0AA27FF1A80D5F600C93AFF /* MCWCard.h */,
+				B0AA28001A80D5F600C93AFF /* MCWCard.m */,
+				B0AA28021A80D7CC00C93AFF /* MCWPoker.h */,
+				B0AA28031A80D7CC00C93AFF /* MCWPoker.m */,
+				B0AA28051A80DDDB00C93AFF /* MCWGame.h */,
+				B0AA28061A80DDDB00C93AFF /* MCWGame.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AA27FD1A80CC2F00C93AFF /* MCWViewController.xib in Resources */,
 				B0AA27DD1A80CA2400C93AFF /* Images.xcassets in Resources */,
 				B0AA27CF1A80CA2400C93AFF /* InfoPlist.strings in Resources */,
-				B0AA27D81A80CA2400C93AFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0AA27D51A80CA2400C93AFF /* MCWAppDelegate.m in Sources */,
+				B0AA28011A80D5F600C93AFF /* MCWCard.m in Sources */,
+				B0AA28041A80D7CC00C93AFF /* MCWPoker.m in Sources */,
 				B0AA27D11A80CA2400C93AFF /* main.m in Sources */,
-				B0AA27DB1A80CA2400C93AFF /* MCWViewController.m in Sources */,
+				B0AA27FC1A80CC2F00C93AFF /* MCWViewController.m in Sources */,
+				B0AA28071A80DDDB00C93AFF /* MCWGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +307,6 @@
 				B0AA27CE1A80CA2400C93AFF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B0AA27D61A80CA2400C93AFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0AA27D71A80CA2400C93AFF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		B0AA27EC1A80CA2400C93AFF /* InfoPlist.strings */ = {

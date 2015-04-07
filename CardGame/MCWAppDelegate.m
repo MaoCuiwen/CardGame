@@ -7,12 +7,17 @@
 //
 
 #import "MCWAppDelegate.h"
+#import "MCWViewController.h"
 
 @implementation MCWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MCWViewController * vc = [[MCWViewController alloc] initWithNibName:@"MCWViewController" bundle:nil];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
